@@ -1,0 +1,111 @@
+
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+hr{
+    color: rgb(175, 165, 165);
+    margin-bottom: 10px;
+    }
+
+
+/*...Menu...*/
+.menu{
+    margin-bottom: 10px;
+    
+}
+.menu-img{
+    width: 35px;
+    height: 35px;
+    margin-right: 600px;
+}
+.menu-tab{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 10px;
+    font-size: 19px;
+    color: darkgray;
+    
+}
+.menu-tab:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+
+/*...Container...*/
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.cont-left{
+    display: inline-block;
+    width: 30%;
+    text-align: left; 
+}
+.cont-left-h1{
+        background-image: linear-gradient( 83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 50px;
+        font-weight: 900px;
+}
+.cont-left-item{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px 5px;
+         
+}
+.cont-left-input{
+    background-color: lightgray;
+    border: 0px;
+    width: 190px;
+    height: 25px;
+}
+.cont-left-input:hover{
+    width: 200px;
+    height: 30px;
+}
+.cont-left-btn{
+    background-color:#6587d4fd ;
+    color: whitesmoke;
+    border-radius: 12px;
+    padding : 8px 7px;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+}
+.cont-left-btn:hover{
+    background-color:#4874dafd;
+}
+.cont-left-img{
+    display: block;
+    width: 80px;
+    height: 50px;
+   }
+.cont-right{
+    display: inline-block;
+    width: 40%;
+}
+.cont-right-img1{
+    width: 100%;
+    text-align: left;
+}
+
+
+/*Footer*/
+.footer{
+    background: linear-gradient(84.06deg, #0088FF -28.62%, #A033FF 36.39%, #FF5C87 98.74%);
+    background-image: linear-gradient(84.06deg, rgb(0, 136, 255) -28.62%, rgb(160, 51, 255) 36.39%, rgb(255, 92, 135) 98.74%);
+    padding: 15px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 10px;
+    }
+.footer-img{
+    width: 50px;
+    height: 15px;
+    }
